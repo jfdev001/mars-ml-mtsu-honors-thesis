@@ -1,0 +1,46 @@
+20211202_14-06-46CST
+
+Using experimental memory growth.
+
+Loading data...
+x_train: (1667, 28, 17) - y_train: (1667, 7, 1)
+x_val: (534, 28, 17) - y_val: (534, 7, 1)
+
+Load model...
+
+Compile model...
+fold: 0
+2061 28                           2061 28
+<BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)> <BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)>
+x_val: (28, 28, 17)
+preds: (28, 7, 1)
+fold: 1
+2089 28                           2089 28
+<BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)> <BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)>
+x_val: (28, 28, 17)
+preds: (28, 7, 1)
+fold: 2
+2117 28                           2117 28
+<BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)> <BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)>
+x_val: (28, 28, 17)
+preds: (28, 7, 1)
+fold: 3
+2145 28                           2145 28
+<BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)> <BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)>
+x_val: (28, 28, 17)
+preds: (28, 7, 1)
+fold: 4
+2173 28                           2173 28
+<BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)> <BatchDataset shapes: ((28, 28, 17), (28, 7, 1)), types: (tf.float64, tf.float64)>
+x_val: (28, 28, 17)
+preds: (28, 7, 1)
+
+Saving testing history...
+
+Saving testing history...
+
+Saving testing history...
+
+Rescaled: True
+
+End task!!

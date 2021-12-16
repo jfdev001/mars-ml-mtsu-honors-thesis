@@ -1,0 +1,56 @@
+** Git
+   git branch <new-branch>              # Create new branch
+   git branch --sort=-committerdate     # Lists in commit order
+   git branch -m <new-branch-name>      # Renames local branch
+   git checkout <branch-name>           # Change to branch-name
+   git checkout -b <branch-name>        # Create and checkout branch
+   git add <file-path, use ./ for all>  # Stage file
+   git commit -m "Message"              # Commit staged files
+   git merge <other-branch>             # Merges other-branch w/ cur branch
+
+** Immediate:
+   -- More suffix than just P1 & P2?
+
+** Data @ https://atmos.nmsu.edu/PDS/data/mslrem_1001/DATA/
+   Footnotes:
+   -- Descriptions: https://pds.nasa.gov/ds-view/pds/viewProfile.jsp?dsid=MSL-M-REMS-5-MODRDR-V1.0
+                  : https://cab.inta-csic.es/rems//wp-content/uploads/2013/04/REMS_RDR_SIS.pdf
+      == MODRDR generates RMD files as a 'data product'
+   -- Base URL for all webscraping
+   -- Data for Sols 0001 through 02387
+      == Data is subdivided into 90 sol segments
+   -- HTML Table for each SOL is not consistent!
+   Questions:
+   -- What is the precise order of the data contained within?
+      == Pressure in atm, temperature... etc?
+      == Check REMS_RDR_SIS.PDF for documentation
+
+** Design
+   Footnotes:
+   -- Determine which methods should be private
+   -- Rewrite method comments so that the documentation is contained
+      inside single comment paragraph instead of spread throughout
+   -- Encapsulate the self.__all_dirs attribute in ScrapePDS
+      into its own class
+   -- Make specification of directory possible for all_dirs etc.
+   -- Make request and html_table building a dedicated function
+   -- Possibly write getters for requests_all_directories....
+      == Rename to scrape
+   -- Make scrape (requests and soup) its own function
+   -- Overloaded operator for "in <class> all_dir" ?
+
+** Documentation:
+   Beautifulsoup4:
+   https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+   requests:
+   https://requests.readthedocs.io/en/master/
+
+   WebScraping multiple URLs:
+   https://towardsdatascience.com/scraping-multiple-urls-with-python-tutorial-2b74432d085f
+
+   HTTP Request denied:
+   https://stackoverflow.com/questions/23013220/max-retries-exceeded-with-url-in-requests
+   
+   Classes and data analysis:
+   https://dbader.org/blog/6-things-youre-missing-out-on-by-never-using-classes-in-your-python-code

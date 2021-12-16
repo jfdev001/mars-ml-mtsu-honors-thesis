@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="petal length (cm) <= 2.45\nmse = 0.577\nsamples = 150\nvalue = 1.199", fillcolor="#f1bb94"] ;
+1 [label="sepal length (cm) <= 4.95\nmse = 0.011\nsamples = 50\nvalue = 0.246", fillcolor="#fefbf9"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="sepal width (cm) <= 2.6\nmse = 0.003\nsamples = 20\nvalue = 0.195", fillcolor="#fffffe"] ;
+1 -> 2 ;
+3 [label="mse = 0.0\nsamples = 1\nvalue = 0.3", fillcolor="#fdf8f3"] ;
+2 -> 3 ;
+4 [label="mse = 0.003\nsamples = 19\nvalue = 0.189", fillcolor="#ffffff"] ;
+2 -> 4 ;
+5 [label="petal length (cm) <= 1.55\nmse = 0.013\nsamples = 30\nvalue = 0.28", fillcolor="#fef9f5"] ;
+1 -> 5 ;
+6 [label="mse = 0.007\nsamples = 21\nvalue = 0.248", fillcolor="#fefbf9"] ;
+5 -> 6 ;
+7 [label="mse = 0.018\nsamples = 9\nvalue = 0.356", fillcolor="#fdf4ed"] ;
+5 -> 7 ;
+8 [label="petal length (cm) <= 4.75\nmse = 0.179\nsamples = 100\nvalue = 1.676", fillcolor="#ea9b62"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="petal length (cm) <= 4.15\nmse = 0.034\nsamples = 45\nvalue = 1.3", fillcolor="#f0b48a"] ;
+8 -> 9 ;
+10 [label="mse = 0.019\nsamples = 19\nvalue = 1.153", fillcolor="#f2be99"] ;
+9 -> 10 ;
+11 [label="mse = 0.017\nsamples = 26\nvalue = 1.408", fillcolor="#eead7e"] ;
+9 -> 11 ;
+12 [label="petal length (cm) <= 5.05\nmse = 0.087\nsamples = 55\nvalue = 1.984", fillcolor="#e68641"] ;
+8 -> 12 ;
+13 [label="mse = 0.036\nsamples = 13\nvalue = 1.731", fillcolor="#ea975c"] ;
+12 -> 13 ;
+14 [label="mse = 0.077\nsamples = 42\nvalue = 2.062", fillcolor="#e58139"] ;
+12 -> 14 ;
+}

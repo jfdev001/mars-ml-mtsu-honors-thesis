@@ -1,0 +1,6 @@
+MeanAbsoluteError_overall-mlr,MeanAbsoluteError_overall-rf,MeanAbsoluteError_overall-gru_unstacked_joint,MeanAbsoluteError_overall-gru_unstacked_iterative,MeanAbsoluteError_overall-gru_stacked_joint,MeanAbsoluteError_overall-gru_stacked_iterative,MeanAbsoluteError_overall-lstm_unstacked_joint,MeanAbsoluteError_overall-lstm_unstacked_iterative,MeanAbsoluteError_overall-lstm_stacked_joint,MeanAbsoluteError_overall-lstm_stacked_iterative,MeanAbsoluteError_overall-cnn
+2.2766764,3.7211618,5.995603,1.4871877,5.715702,4.7219205,9.775673,6.309599,3.4024184,2.0610678,2.8997703
+3.1219735,3.2967982,4.773955,2.5740745,4.4995327,4.4380746,7.00696,4.6350365,3.2810252,2.389293,2.9752185
+2.996441,3.1946266,3.7713008,2.4772916,3.6012506,4.2501493,5.371777,3.5607412,3.1458595,2.3603582,2.5147784
+2.9605656,3.0276031,3.4536202,2.4626193,3.373105,4.100792,4.731036,3.3699975,3.1541474,2.5287514,2.662898
+3.0367208,2.9152389,3.393493,2.5573921,3.3207119,3.9814773,4.4277787,3.3417845,3.1321986,2.6215699,2.75632

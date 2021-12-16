@@ -1,0 +1,12 @@
+Unnamed: 0,MeanAbsoluteError,MeanSquaredError,RootMeanSquaredError
+gru_unstacked_iterative,2.31,10.98,3.25
+lstm_stacked_iterative,2.39,11.58,3.38
+base_conv,2.76,14.98,3.87
+mlr,2.88,15.78,3.93
+lstm_stacked_joint,3.22,15.96,3.99
+rf,3.23,15.53,3.92
+gru_stacked_joint,4.1,25.29,4.99
+lstm_unstacked_iterative,4.24,28.15,5.25
+gru_unstacked_joint,4.28,27.38,5.19
+gru_stacked_iterative,4.3,25.03,5.0
+lstm_unstacked_joint,6.26,58.58,7.51

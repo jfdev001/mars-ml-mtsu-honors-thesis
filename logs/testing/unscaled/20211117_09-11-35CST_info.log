@@ -1,0 +1,10 @@
+20211117_09-11-35CST
+{'model': 'rf', 'yml_path': '../../logs/tuning/rf/20211117_08-34-18CST_mars_rf.yml', 'data_path': None, 'exp_path': '../../logs/testing/rf', 'task': 'cross_validate', 'which_dataset': 'validation', 'n_splits': 5, 'test_size': 28}
+Cross validating...
+(7, 1)
+(7, 1)
+(7, 1)
+(7, 1)
+(7, 1)
+
+End task!!

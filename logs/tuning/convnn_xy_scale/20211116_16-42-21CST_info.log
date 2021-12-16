@@ -1,0 +1,18 @@
+20211116_16-42-21CST
+
+Using experimental memory growth.
+
+Loading data...
+x_train: (1667, 28, 17) - y_train: (1667, 7, 1)
+x_val: (534, 28, 17) - y_val: (534, 7, 1)
+
+Instantiating hypermodel...
+
+Instantiating tuner using cv_bopt search strategy...
+
+Hyperparameter search...
+Oracle triggered exit
+
+Retrieving best hyperparameters...
+
+Tune ConvMarsNNHypermodel  complete.

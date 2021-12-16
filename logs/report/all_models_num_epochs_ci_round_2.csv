@@ -1,0 +1,10 @@
+Unnamed: 0,lower,mean,upper
+gru_unstacked_joint,3.81,6.2,8.59
+lstm_unstacked_joint,2.64,6.2,9.76
+gru_stacked_iterative,3.74,6.6,9.46
+lstm_stacked_joint,3.07,7.0,10.93
+gru_stacked_joint,4.25,7.6,10.95
+lstm_stacked_iterative,6.24,8.0,9.76
+cnn,5.37,8.2,11.03
+gru_unstacked_iterative,2.05,10.8,19.55
+lstm_unstacked_iterative,-0.78,11.8,24.38

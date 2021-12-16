@@ -1,0 +1,3 @@
+python confidence_intervals_bounds.py ../../logs/report/mae_models_fold_overall.csv ../../logs/report/mae_ci.csv --split_col - --sort ascending --transpose True
+python confidence_intervals_bounds.py ../../logs/report/mse_models_fold_overall.csv ../../logs/report/mse_ci.csv --split_col - --sort ascending --transpose True --metric MeanSquaredError
+ python confidence_intervals_bounds.py ../../logs/report/rmse_models_fold_overall.csv ../../logs/report/rmse_ci.csv --split_col - --sort ascending --transpose True --metric RootMeanSquaredError

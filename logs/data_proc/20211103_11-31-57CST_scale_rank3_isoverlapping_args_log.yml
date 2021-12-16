@@ -1,0 +1,22 @@
+data_path: ../../data/20210831_14-55-49CST_clean_split_impute_tvt0.6,0.2,0.2_extratreesregressor_df_dict.pkl
+exp_path: ../../logs/data_proc
+imputer: extra_trees
+iter_impute_random_state: 42
+labels:
+- Mean Ambient Air Temperature (K)
+max_impute_iter: 10
+n_estimators: 100
+n_jobs: -2
+n_neighbors: 5
+nan_threshold: 1300
+overlapping_windows: true
+prop_explained_var: -1.0
+scaler: minmax_scaler
+skip_verification: false
+task: scale_rank3
+test_ratio: 0.2
+tree_random_state: 42
+unclean_data_path: null
+val_ratio: 0.2
+x_timesteps: 28
+y_timesteps: -7

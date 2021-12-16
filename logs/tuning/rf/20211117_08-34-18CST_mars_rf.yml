@@ -1,0 +1,48 @@
+best_metric: 0.00238210921457263
+best_parameters:
+  cv_params:
+    n_splits: 5
+    test_size: 28
+  model_params:
+    max_depth: 32
+    min_samples_leaf: 1
+    min_samples_split: 2
+    n_estimators: 128
+    n_mo_jobs: -1
+    n_rf_jobs: -1
+  optional arguments:
+    exp_path: ../../logs/tuning/rf
+    help: null
+  oracle_params:
+    max_trials: 3
+  positional arguments:
+    data_path: ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+cv_params:
+  n_splits: 5
+  test_size: 28
+model_params:
+  max_depth:
+  - 8
+  - 16
+  - 32
+  min_samples_leaf:
+  - 1
+  min_samples_split:
+  - 2
+  n_estimators:
+  - 64
+  - 128
+  - 256
+  n_mo_jobs: -1
+  n_rf_jobs: -1
+optional arguments:
+  exp_path: ../../logs/tuning/rf
+  help: null
+oracle_params:
+  max_trials: 3
+positional arguments:
+  data_path: ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+time_elapsed: 0.0 hr 9.0 min 30 s
+tuner_best_hyperparameters:
+  max_depth: 32
+  n_estimators: 128

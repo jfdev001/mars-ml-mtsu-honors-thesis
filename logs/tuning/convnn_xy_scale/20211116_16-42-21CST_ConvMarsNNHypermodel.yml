@@ -1,0 +1,112 @@
+best_metric: 0.003766237199306488
+best_parameters:
+  compile_params:
+    learning_rate: 0.01
+  cv_params:
+    cv: TimeSeriesSplit
+    n_splits: 5
+  fit_params:
+    batch_size: 28
+    drop_remainder: true
+    epochs: 32
+    es_patience: 4
+    iid: true
+    shuffle_batched_seq: false
+  model_params:
+    activation: relu
+    conv_layers: 2
+    conv_padding: valid
+    conv_strides: 1
+    dilation_rate: 2
+    dropout_rate: 0.32
+    filter_increase_rate: 2
+    filters: 32
+    kernel_size: 3
+    output_tsteps: 7
+    pool_padding: valid
+    pool_size: 2
+    pool_strides: null
+    use_pooling: true
+  optional arguments:
+    exp_path: ../../logs/tuning/convnn_xy_scale
+    help: null
+    search_strategy: cv_bopt
+    special_id: base_conv
+  oracle_params:
+    executions_per_trial: 1
+    max_trials: 10
+  positional arguments:
+    data_path: ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+compile_params:
+  learning_rate:
+  - 0.01
+  - 0.001
+  - 0.0001
+cv_params:
+  cv: TimeSeriesSplit
+  n_splits: 5
+fit_params:
+  batch_size: 28
+  drop_remainder: true
+  epochs: 32
+  es_patience: 4
+  iid: true
+  shuffle_batched_seq: false
+model_params:
+  activation:
+  - relu
+  conv_layers:
+  - 2
+  - 4
+  - 8
+  conv_padding:
+  - valid
+  - same
+  - causal
+  conv_strides:
+  - 1
+  dilation_rate:
+  - 1
+  - 2
+  dropout_rate:
+  - 0.0
+  - 0.16
+  - 0.32
+  - 0.64
+  filter_increase_rate:
+  - 1
+  - 2
+  filters:
+  - 32
+  - 64
+  - 128
+  kernel_size:
+  - 3
+  output_tsteps: 7
+  pool_padding:
+  - valid
+  pool_size:
+  - 2
+  pool_strides:
+  - null
+  use_pooling:
+  - true
+optional arguments:
+  exp_path: ../../logs/tuning/convnn_xy_scale
+  help: null
+  search_strategy: cv_bopt
+  special_id: base_conv
+oracle_params:
+  executions_per_trial: 1
+  max_trials: 10
+positional arguments:
+  data_path: ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+time_elapsed: 0.0 hr         7.0 min         4 s
+tuner_best_hyperparameters:
+  conv_layers: 2
+  conv_padding: valid
+  dilation_rate: 2
+  dropout_rate: 0.32
+  filter_increase_rate: 2
+  filters: 32
+  learning_rate: 0.01

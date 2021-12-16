@@ -1,0 +1,47 @@
+# Ignoring all but ymls and inf logs
+logs/data_proc/*
+!logs/data_proc/*.yml
+
+# Artifact of google colab interface with git
+.config/*
+
+sample_data/*
+
+logs/junk/*
+
+logs/training/simple_mars_nn_not_iid/*
+!logs/training/simple_mars_nn_not_iid/*.yml
+!logs/training/simple_mars_nn_not_iid/*.log
+
+logs/training/simple_mars_nn_iid/*
+!logs/training/simple_mars_nn_iid/*.yml
+!logs/training/simple_mars_nn_iid/*.log
+
+logs/training/conv_mars_nn_iid/*
+!logs/training/conv_mars_nn_iid/*.yml
+!logs/training/conv_mars_nn_iid/*.log
+
+logs/tuning/rf/*
+!logs/tuning/rf/*.yml
+!logs/tuning/rf/*.log
+
+logs/tuning/simple_mars_nn_not_iid/*
+!logs/tuning/simple_mars_nn_not_iid/*.yml
+!logs/tuning/simple_mars_nn_not_iid/*.log
+
+logs/tuning/simple_mars_nn_iid/*
+!logs/tuning/simple_mars_nn_iid/*.yml
+!logs/tuning/simple_mars_nn_iid/*.log
+
+logs/tuning/conv_mars_nn_not_iid/*
+!logs/tuning/conv_mars_nn_not_iid/*.yml
+!logs/tuning/conv_mars_nn_not_iid/*.log
+
+logs/tuning/conv_mars_nn_iid/*
+!logs/tuning/conv_mars_nn_iid/*.yml
+!logs/tuning/conv_mars_nn_iid/*.log
+
+# Ignore pickls in data except the last two
+data/*.pkl
+!data/*tx28_ty-7*.pkl
+!data/*impute*

@@ -1,0 +1,48 @@
+best_metric: 0.0022570048239543903
+best_parameters:
+  cv_params:
+    n_splits: 5
+    test_size: 28
+  model_params:
+    max_depth: 8
+    min_samples_leaf: 1
+    min_samples_split: 2
+    n_estimators: 256
+    n_mo_jobs: -1
+    n_rf_jobs: -1
+  optional arguments:
+    exp_path: C:\Dev\python\ml\BMI\20210913_github_backup\logs\tuning\rf
+    help: null
+  oracle_params:
+    max_trials: 10
+  positional arguments:
+    data_path: ../../data/20210913_16-41-50CST_scaled_rank3_format_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+cross_validation:
+  n_splits: 5
+  test_size: 32
+model_params:
+  max_depth:
+  - 8
+  - 16
+  - 32
+  min_samples_leaf:
+  - 1
+  min_samples_split:
+  - 2
+  n_estimators:
+  - 64
+  - 128
+  - 256
+  n_mo_jobs: -1
+  n_rf_jobs: -1
+optional arguments:
+  exp_path: C:\Dev\python\ml\BMI\20210913_github_backup\logs\tuning\rf
+  help: null
+oracle_params:
+  max_trials: 10
+positional arguments:
+  data_path: ../../data/20210913_16-41-50CST_scaled_rank3_format_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+time_elapsed: 0.0 hr 31.0 min 32 s
+tuner_best_hyperparameters:
+  max_depth: 8
+  n_estimators: 256

@@ -1,0 +1,16 @@
+data_path: C:\Dev\python\ml\BMI\github\data\20210830_20-55-01CST_data_proc_split_impute_tvt0.6,0.2,0.2_bayesianridge_df_dict.pkl
+exp_path: C:\Dev\python\ml\BMI\github\logs
+imputer: extra_trees
+iter_impute_random_state: 42
+max_impute_iter: 5
+n_estimators: 100
+n_jobs: -2
+n_neighbors: 5
+scaler: no_scaler
+task: clean_split_impute
+test_ratio: 0.2
+tree_random_state: 42
+unclean_data_path: C:\Dev\python\ml\BMI\github\data\unclean.csv
+val_ratio: 0.2
+x_timesteps: 3
+y_timesteps: 7

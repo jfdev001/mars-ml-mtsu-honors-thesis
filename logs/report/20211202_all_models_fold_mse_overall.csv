@@ -1,0 +1,6 @@
+MeanSquaredError_overall-mlr,MeanSquaredError_overall-rf,MeanSquaredError_overall-gru_unstacked_joint,MeanSquaredError_overall-gru_unstacked_iterative,MeanSquaredError_overall-gru_stacked_joint,MeanSquaredError_overall-gru_stacked_iterative,MeanSquaredError_overall-lstm_unstacked_joint,MeanSquaredError_overall-lstm_unstacked_iterative,MeanSquaredError_overall-lstm_stacked_joint,MeanSquaredError_overall-lstm_stacked_iterative,MeanSquaredError_overall-cnn
+7.7363343,21.787075,40.069874,4.0071335,36.022026,24.543766,101.662735,43.390717,14.176728,7.0742006,13.055699
+18.112337,16.283995,31.508034,13.191057,28.222336,25.398926,66.70577,30.936718,16.67741,12.333123,16.433079
+18.618364,14.686589,24.227272,12.736789,22.556686,25.626644,48.989735,23.885996,16.547945,12.439129,14.599251
+17.340137,12.837326,21.099941,12.360283,20.359978,25.2509,40.210686,21.894335,16.41987,12.944862,15.481559
+17.111643,12.044152,20.018078,12.625146,19.292513,24.334177,35.35598,20.65107,15.999607,13.095324,15.3152685

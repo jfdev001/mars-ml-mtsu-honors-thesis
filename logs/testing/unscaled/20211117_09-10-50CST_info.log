@@ -1,0 +1,10 @@
+20211117_09-10-50CST
+{'model': 'mlr', 'yml_path': None, 'data_path': '../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl', 'exp_path': '../../logs/testing/mlr', 'task': 'cross_validate', 'which_dataset': 'validation', 'n_splits': 5, 'test_size': 28}
+Cross validating...
+(7, 1)
+(7, 1)
+(7, 1)
+(7, 1)
+(7, 1)
+
+End task!!

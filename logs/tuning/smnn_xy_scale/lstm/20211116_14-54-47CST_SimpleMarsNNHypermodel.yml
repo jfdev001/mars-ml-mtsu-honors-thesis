@@ -1,0 +1,77 @@
+best_metric: 0.002473175583872944
+best_parameters:
+  compile_params:
+    learning_rate: 0.001
+  cv_params:
+    cv: TimeSeriesSplit
+    n_splits: 5
+  fit_params:
+    batch_size: 28
+    drop_remainder: true
+    epochs: 32
+    es_patience: 4
+    iid: true
+    shuffle_batched_seq: false
+  model_params:
+    autoregressive: false
+    dropout: 0.0
+    output_tsteps: 7
+    rnn_cell: lstm
+    rnn_layers: 1
+    rnn_size: 32
+  optional arguments:
+    exp_path: ../../logs/tuning/smnn_xy_scale
+    help: null
+    search_strategy: cv_bopt
+    special_id: lstm_unstacked_joint
+  oracle_params:
+    executions_per_trial: 1
+    max_trials: 10
+  positional arguments:
+    data_path: ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+compile_params:
+  learning_rate:
+  - 0.01
+  - 0.001
+  - 0.0001
+cv_params:
+  cv: TimeSeriesSplit
+  n_splits: 5
+fit_params:
+  batch_size: 28
+  drop_remainder: true
+  epochs: 32
+  es_patience: 4
+  iid: true
+  shuffle_batched_seq: false
+model_params:
+  autoregressive:
+  - false
+  dropout:
+  - 0.0
+  - 0.16
+  - 0.32
+  output_tsteps: 7
+  rnn_cell:
+  - lstm
+  rnn_layers:
+  - 1
+  rnn_size:
+  - 32
+  - 64
+  - 128
+optional arguments:
+  exp_path: ../../logs/tuning/smnn_xy_scale
+  help: null
+  search_strategy: cv_bopt
+  special_id: lstm_unstacked_joint
+oracle_params:
+  executions_per_trial: 1
+  max_trials: 10
+positional arguments:
+  data_path: ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl
+time_elapsed: 0.0 hr         6.0 min         11 s
+tuner_best_hyperparameters:
+  dropout: 0.0
+  learning_rate: 0.001
+  rnn_size: 32

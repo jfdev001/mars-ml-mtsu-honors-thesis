@@ -1,0 +1,46 @@
+** Git
+   git branch <new-branch>              # Create new branch
+   git branch --sort=-committerdate     # Lists in commit order
+   git branch -m <new-branch-name>      # Renames local branch
+   git checkout <branch-name>           # Change to branch-name
+   git checkout -b <branch-name>        # Create and checkout branch
+   git add <file-path, use ./ for all>  # Stage file
+   git commit -m "Message"              # Commit staged files
+   git merge <other-branch>             # Merges other-branch w/ cur branch
+
+** Immediate:
+   -- Remove wind data?
+
+   Optimize Processing:
+   https://www.codementor.io/@satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65
+
+
+** Design
+   Footnotes:
+   -- How to make data_list faster? Possibly use yield?
+   -- You are processing ~2 million lines of data but how can you speed
+      it up?
+   -- Can only have one output variable because linear regression is
+      only capable of a single output y = B0 + Sum[Bixi]
+
+
+** Documentation:
+   pandas:
+   https://pandas.pydata.org/docs/user_guide/10min.html#min
+
+   numpy:
+   https://numpy.org/doc/stable/user/absolute_beginners.html
+
+   Jupyter Notebooks in vscode --
+   https://code.visualstudio.com/docs/python/jupyter-support
+
+   Conda --
+   Multiple packages:
+   https://interviewbubble.com/installing-multiple-packages-in-conda/
+
+   conda install jupyter   # For all jupyter frontend packages
+
+   Warning with IPYNB --
+   https://stackoverflow.com/questions/5834014/lf-will-be-replaced-by-crlf-in-git-what-is-that-and-is-it-important
+   
+

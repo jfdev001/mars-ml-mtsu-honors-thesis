@@ -1,0 +1,1 @@
+python tune_mars_rf.py  ../../data/20211103_11-31-57CST_scale_rank3_minmax_scaler_isoverlapping_tx28_ty-7_data_dict.pkl --exp_path ../../logs/tuning/rf --n_splits 5 --test_size 28 --max_trials 3 --max_depth 8 16 32 --min_samples_leaf 1 --min_samples_split 2 --n_estimators 64 128 256

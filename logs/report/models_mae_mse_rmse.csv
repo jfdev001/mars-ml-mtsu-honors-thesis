@@ -1,0 +1,12 @@
+,MeanAbsoluteError,MeanSquaredError,RootMeanSquaredError
+gru_unstacked_iterative,2.311713,10.984081,3.2543006
+lstm_stacked_iterative,2.3922079,11.577327,3.38303
+base_conv,2.761797,14.976972,3.8672142
+mlr,2.8784757,15.783763,3.930591
+lstm_stacked_joint,3.2231297,15.964313,3.9938018
+rf,3.2310855,15.527827,3.917741
+gru_stacked_joint,4.1020603,25.290707,4.9936438
+lstm_unstacked_iterative,4.243432,28.151768,5.2520113
+gru_unstacked_joint,4.2775946,27.38464,5.1866045
+gru_stacked_iterative,4.298483,25.030882,5.0028343
+lstm_unstacked_joint,6.262645,58.58498,7.5073404
