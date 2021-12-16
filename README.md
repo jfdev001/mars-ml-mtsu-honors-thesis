@@ -6,15 +6,19 @@ An end-to-end machine learning project in which I used `tensorflow` to construct
 
 # Installation
 
-This repository makes use of the following packages:
+It is recommended to use [Miniconda](https://docs.conda.io/projects/conda/en/latest/glossary.html#miniconda-glossary) or [Anaconda](https://docs.conda.io/projects/conda/en/latest/glossary.html#anaconda-glossary) to install the packages for the repository.
 
-`keras-tuner`, `tensorflow 2.X`, `scikit-learn`, `matplotlib`, `statsmodels`, `pandas`, `numpy, scipy`, `requests, beautifulsoup4`, and `yaml`.
+To install the environment without GPU acceleration, run the following commands:
 
-It is recommended to use [Miniconda](https://docs.conda.io/projects/conda/en/latest/glossary.html#miniconda-glossary) or [Anaconda](https://docs.conda.io/projects/conda/en/latest/glossary.html#anaconda-glossary) to install the packages for the repository. The `mars_ml.yml` or `mars_ml_gpu.yml` can be installed by using either of the below commands:
+`conda install tensorflow scikit-learn statsmodels pandas numpy scipy requests beautifulsoup4 `
 
-`conda env create -f path/to/mar_ml.yml`
+`conda install -c conda-forge matplotlib keras-tuner tqdm`
 
-`conda env create -f path/to/mars_ml_gpu.yml`
+To install the environment with GPU acceleration, run the following commands:
+
+`conda install tensorflow-gpu scikit-learn statsmodels pandas numpy scipy requests beautifulsoup4 `
+
+`conda install -c conda-forge matplotlib keras-tuner tqdm`
 
 # Data
 
@@ -32,4 +36,4 @@ Example commands will be included to replicate the figures in this study.
 
 # Future Work and Reflections
 
-I will update the scraping script in addition to providing example commands for replicating my results. Moreover, I will likely use an open source MLOps library such as `neptune-client` because tracking hyperparameters using `yaml` proved to be a fairly annoying task.
+I will update the scraping script in addition to providing example commands for replicating my results. Moreover, I will likely use an open source MLOps library such as `neptune-client` in the future because tracking hyperparameters using `yaml` proved to be a fairly annoying task.
