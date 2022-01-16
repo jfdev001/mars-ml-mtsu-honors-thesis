@@ -199,3 +199,18 @@ def generate_timeseries_windows(
         return rank3_ndarrs, cleaned_dfs
     else:
         return rank3_ndarrs
+
+def window(arr, time_lag, forecast_horizon, sampling_rate=1):
+    """Creates time lagged-forecast horizoned windows.
+    
+    NOTE: Not in use.
+    TODO: Specify label column indices or name of labels.
+    """
+
+    windowed_data = []
+    stop = len(arr)-(time_lag+forecast_horizon)+1
+    for ix in range(0, stop, sampling_rate):
+        feature = arr[ix:ix+time_lag]
+        target = arr[ix+time_lag: ix+time_lag+forecast_horizon]
+        windowed_data.append((feature, target))
+    return windowed_data
